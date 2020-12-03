@@ -80,3 +80,47 @@ h3.subhead{
 	padding-bottom: 30px;
 	padding-top: 30px;
 }
+
+@media(max-width:770px) {
+	h1 {
+		font-size: 30px;
+		padding-top: 50px;
+	}
+	.card-content{
+		padding-bottom: 20px;
+	padding-top: 20px;
+}
+}
+	
+	@media(max-width:414px) {
+		h3.card-title {
+			margin-top: 200px;
+		}
+		p {
+			font-size: 12px;
+		}
+		h3.card-title {
+			font-size: 25px;
+			padding-top: 3px;
+			margin-top: 3px;
+			padding-bottom: 3px;
+		}
+	}
+	@media(max-width:375px) {
+		p {
+			font-size: 12px;
+		}
+		h1{
+			font-size: 20px;
+		}
+		h2.byline{
+			font-size: 12px;
+		}
+		.card-content{
+		padding-bottom: 10px;
+	padding-top: 10px;
+	}
+	h3.subhead{
+		font-size: 15px;
+		}
+	}
