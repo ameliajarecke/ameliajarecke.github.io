@@ -1,5 +1,5 @@
-font-family: 'Castoro', serif;
-font-family: 'Open Sans', sans-serif;
+/*font-family: 'Castoro', serif;
+font-family: 'Open Sans', sans-serif;*/
 
 body {
 	background-color: white;
@@ -9,19 +9,18 @@ body {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	max-width: 75%;
+	max-width: 50%;
 	margin: 0 auto;
 	line-height: 2;
-  margin-top: 7px;
-  margin-bottom: 7px;
+	margin-top: 7px;
+	margin-bottom: 7px;
 }
 
 h1 {
 	font-family: 'Castoro', serif;
-	
 }
 
-h2.byline{
+h2.byline {
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -50,7 +49,7 @@ h2.byline{
 }
 
 .about-img {
-	opacity: .8;
+	opacity: 0.8;
 }
 
 .img-fluid {
@@ -58,27 +57,66 @@ h2.byline{
 	height: auto;
 }
 
-.text{
+.text {
 	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
-
-h3.subhead{
-	font-family: 'Open Sans', sans-serif;
+h3.subhead {
+	font-family: 'Castoro', serif;
 	font-weight: 700;
-	padding-bottom: 10px;
-	padding-top: 15px;
-	max-width: 85%;
+	padding-bottom: 20px;
+	padding-top: 25px;
+	max-width: 70%;
 	margin: 0 auto;
 }
 
-.aqi{
-	text-align:center;
-}
-.row,.img{
+.row,
+.img {
 	padding-bottom: 30px;
 	padding-top: 30px;
+}
+
+p.pull-quote {
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-top: 10px solid green;
+	font-weight: bold;
+}
+
+p.pull-quote,
+.quote {
+	max-width: 100%;
+}
+
+p.quote {
+	text-align: left;
+}
+
+img.station-gif {
+	padding-left: 20px;
+}
+
+footer.blockquote-footer {
+	font-size: 15px;
+}
+
+.graph {
+	max-width: 75%;
+}
+
+p.caption {
+	max-width: 96%;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+p.cover-cap {
+	max-width: 98%;
+	text-align: right;
 }
 
 @media(max-width:770px) {
@@ -86,41 +124,50 @@ h3.subhead{
 		font-size: 30px;
 		padding-top: 50px;
 	}
-	.card-content{
+	.card-content {
 		padding-bottom: 20px;
-	padding-top: 20px;
-}
-}
-	
-	@media(max-width:414px) {
-		h3.card-title {
-			margin-top: 200px;
-		}
-		p {
-			font-size: 12px;
-		}
-		h3.card-title {
-			font-size: 25px;
-			padding-top: 3px;
-			margin-top: 3px;
-			padding-bottom: 3px;
-		}
+		padding-top: 20px;
 	}
-	@media(max-width:375px) {
-		p {
-			font-size: 12px;
-		}
-		h1{
-			font-size: 20px;
-		}
-		h2.byline{
-			font-size: 12px;
-		}
-		.card-content{
+	p {
+		max-width: 90%;
+	}
+}
+
+@media(max-width:414px) {
+	h1 {
+		font-size: 20px;
+	}
+	h3.card-title {
+		margin-top: 200px;
+	}
+	p {
+		font-size: 12px;
+		max-width: 90%;
+	}
+	h3.card-title {
+		font-size: 25px;
+		padding-top: 3px;
+		margin-top: 3px;
+		padding-bottom: 3px;
+	}
+}
+
+@media(max-width:375px) {
+	p {
+		font-size: 12px;
+		max-width: 90%;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2.byline {
+		font-size: 12px;
+	}
+	.card-content {
 		padding-bottom: 10px;
-	padding-top: 10px;
+		padding-top: 10px;
 	}
-	h3.subhead{
+	h3.subhead {
 		font-size: 15px;
-		}
 	}
+}
